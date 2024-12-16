@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : 'Zhiyuan "Paul" Zhou'
+title                    : 'Andy Peng'
 title_separator          : "-"
 subtitle                 :  # Portfolio website # site tagline that appears below site title in masthead
-name                     : 'Zhiyuan "Paul" Zhou'
-description              : "Zhiyuan Paul Zhou is a CS Ph.D. student at UC Berkeley interested in reinforcement learning and building autonomous intelligent agents."
-url                      : 'https://zhouzypaul.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : 'Andy Peng'
+description              : "Andy Peng is an undergraduate EECS student at UC Berkeley interested in reinforcement learning and robotics."
+url                      : 'https://andypeng.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '/' # the subpath of your site, e.g. "/blog"
-repository               : 'zhouzypaul/zhouzypaul.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : 'andypeng05/andypeng.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : 'Zhiyuan "Paul" Zhou'
+  name             : 'Andy Peng'
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a CS Ph.D. student at UC Berkeley, interested in reinforcement learning and building autonomous intelligent agents."
-  location         : "Providence, RI"
+  bio              : "I am an undergraduate EECS student at UC Berkeley, interested in reinforcement learning and robotics."
+  location         : "Los Angeles, CA"
   email            :
   links:
     # - label: "Email"
@@ -115,7 +115,7 @@ author:
     #   url: "mailto:"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://zhouzypaul.github.io"
+      url: "https://andypeng.github.io"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -134,13 +134,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/zhiyuan_zhou_
+      url: https://twitter.com/andypeng05
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: https://www.linkedin.com/in/zhiyuan-paul-zhou/
+      url: https://www.linkedin.com/in/andypeng05/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/zhouzypaul
+      url: https://github.com/andypeng05
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url: 

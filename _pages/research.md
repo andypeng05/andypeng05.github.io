@@ -3,7 +3,7 @@ title: "Research"
 layout: splash
 permalink: /research/
 ---
-My research ambition is to build **autonomous agents** that can solve a wide variety of complex tasks and continuously learn new ones. I believe this calls for decision-making systems that can effectively build on **prior knowledge** (e.g. large-scale pre-training) and **continually** learn to generalize to new tasks. Towards this goal, I work on various aspects of **robotics** and **reinforcement learning**. Currently, I am most excited about autonomous improvement of robotic skills and offline-to-online RL.
+<!-- My research ambition is to build **autonomous agents** that can solve a wide variety of complex tasks and continuously learn new ones. I believe this calls for decision-making systems that can effectively build on **prior knowledge** (e.g. large-scale pre-training) and **continually** learn to generalize to new tasks. Towards this goal, I work on various aspects of **robotics** and **reinforcement learning**. Currently, I am most excited about autonomous improvement of robotic skills and offline-to-online RL.
 I am fortunate to be advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/) at UC Berkeley. 
 During my undergrad I was advised by professors [George Konidaris](https://cs.brown.edu/people/gdk/) and [Michael Littman](https://www.littmania.com) at Brown. Please check out my selected work below.
 {: style="text-align: center;font-size:110%;padding-top:40px"}
@@ -11,7 +11,7 @@ During my undergrad I was advised by professors [George Konidaris](https://cs.br
 [CV](/pdfs/bio/CV.pdf) \|
 [Google Scholar](https://scholar.google.com/citations?user=unQVOJkAAAAJ&hl=en) \|
 [Github](https://github.com/zhouzypaul)
-{: style="text-align: center;font-size: 100%"}
+{: style="text-align: center;font-size: 100%"} -->
 
 
 <!-- style -->
@@ -39,8 +39,8 @@ During my undergrad I was advised by professors [George Konidaris](https://cs.br
                 <span class="skill">deep reinforcement learning</span>
                 <span class="skill">fine-tuning</span>
               </div>
-              <strong>Zhiyuan Zhou</strong>,
-              <a href="https://www.linkedin.com/in/andypeng05">Andy Peng</a>,
+              <a href="https://zhouzypaul.github.io">Zhiyuan Zhou*</a>,
+              <strong>Andy Peng*</strong>,
               <a href="https://colinqiyangli.github.io">Qiyang Li</a>,
               <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>,
               <a href="https://aviralkumar2907.github.io">Aviral Kumar</a>,
@@ -59,9 +59,8 @@ During my undergrad I was advised by professors [George Konidaris](https://cs.br
           </tr>
         </tbody>
 </table> 
-
+{% comment %}
 ### Conferences 
-
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
           <!-- <tr bgcolor="#ffffd0"> -->
@@ -285,3 +284,4 @@ During my undergrad I was advised by professors [George Konidaris](https://cs.br
           </tr>
         </tbody>
 </table> 
+{% endcomment %}
