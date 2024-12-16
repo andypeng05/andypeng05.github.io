@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 ---
 
-![Andy Peng](./images/andyprofile.JPG)
+![Andy Peng](./images/andyprofile.jpg)
 {:style="float: right; padding: 30px; max-width: 30%; min-width: 330px;"}
 
 <br/>
