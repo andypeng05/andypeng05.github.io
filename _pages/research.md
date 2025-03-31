@@ -48,12 +48,12 @@ During my undergrad I was advised by professors [George Konidaris](https://cs.br
 				<em>International Conference on Learning Representations (ICLR)</em>, 2025
               <br>
               [<a href="http://arxiv.org/abs/2412.07762">paper</a>]
-              [<a href="/wsrl/">website</a>]
+              [<a href="https://zhouzypaul.github.io/wsrl/">website</a>]
               [<a href="https://github.com/zhouzypaul/wsrl">code</a>]
               <br>
               <p>
               Can we finetune policies and values from offline RL <b>*without retaining the offline data*</b>? Current methods require keeping the offline data
-              for stability and performance, but this make RL hard to scale up when the offline dataset gets bigger and bigger. Turns out a simple receipe, Warm-start RL, is able to finetune rapidly without data retention! <br>
+              for stability and performance, but this make RL hard to scale up when the offline dataset gets bigger and bigger. Turns out a simple recipe, Warm-start RL, is able to finetune rapidly without data retention! <br>
               </p>
             </td>
           </tr>
