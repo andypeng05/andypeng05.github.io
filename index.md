@@ -8,14 +8,11 @@ permalink: /
 {:style="float: right; padding: 30px; max-width: 30%; min-width: 330px;"}
 
 <br/>
-Hi! I'm Andy, an undergrad Researcher and Engineer at [UC Berkeley](https://www.berkeley.edu) studying Electrical Engineering and Computer Science (EECS). 
+Hi! I'm Andy, an undergraduate Researcher and Engineer at [UC Berkeley](https://www.berkeley.edu) studying Electrical Engineering and Computer Science (EECS). 
 
-My research interests lie in building efficient and intelligent AI agents using Reinforcement Learning and interacting with the world through Robotics.
-Currently, I'm working on offline-to-online RL at [BAIR](https://bair.berkeley.edu) under the [RAIL](https://rail.eecs.berkeley.edu) group. Outside my research, I enjoy building applied machine learning applications within the wonderful community at [Launchpad](https://launchpad.studentorg.berkeley.edu).
-
-I've spent some time exploring hardware design/validation and FPGA programming with the Energy Infrastructure team at [Tesla](https://www.tesla.com), and learned PCB design and firmware alongside my friends at [Berkeley Formula Racing](https://fsae.studentorg.berkeley.edu). I'll also be working on LLM training and infrastructure at [NVIDIA](https://nvidia.com) this summer.
-
-Outside work, I spend my time painting with my oil paints and colored pencils, playing intramural basketball, and searching for new matcha lattes in the bay!
+My research interests lie in building efficient and generalizable AI using Reinforcement Learning and interacting with the world through Robotics.
+Currently, I'm working on offline-to-online RL at [Berkeley Artifical Intelligence Research](https://bair.berkeley.edu), advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/). Outside my research, I enjoy building applied machine learning applications with my friends at [Launchpad](https://launchpad.studentorg.berkeley.edu).
+I'll also be working on LLM training and infrastructure at [NVIDIA](https://nvidia.com) this summer.
 
 If you'd like to chat, please reach out at [andypeng at berkeley dot edu].
 
