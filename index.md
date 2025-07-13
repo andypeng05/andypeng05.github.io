@@ -17,5 +17,7 @@ I'll also be working on LLM training and infrastructure at [NVIDIA](https://nvid
 If you'd like to chat, please reach out at [andypeng at berkeley dot edu].
 
 ## Recent News
-last updated: Dec 2024
-- I just released my first ever research paper with BAIR! We explore how to do RL fine-tuning without offline data retention. I'm excited to see how [Warm-start RL (WSRL)](http://arxiv.org/abs/2412.07762) can help scale up RL for real-world tasks, and the future of efficient RL finetuning. (Update: WSRL has been accepted to ICLR 2025!)
+last updated: July 2025
+
+- We released some exciting real world RL results with WSRL on a Franka robot! Check it out on the [website](https://zhouzypaul.github.io/wsrl/)
+- I just released my first research paper with BAIR! We explore how to do RL fine-tuning without offline data retention. I'm excited to see how [Warm-start RL (WSRL)](http://arxiv.org/abs/2412.07762) can help scale up RL for real-world tasks, and the future of efficient RL finetuning. (Update: WSRL has been accepted to ICLR 2025!)
