@@ -11,8 +11,8 @@ permalink: /
 Hi! I'm Andy, an undergraduate Researcher and Engineer at [UC Berkeley](https://www.berkeley.edu) studying Electrical Engineering and Computer Science (EECS). 
 
 My research interests lie in building efficient and generalizable AI using Reinforcement Learning and interacting with the world through Robotics.
-Currently, I'm working on offline-to-online RL at [Berkeley Artifical Intelligence Research](https://bair.berkeley.edu), advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/). Outside my research, I enjoy building applied machine learning applications with my friends at [Launchpad](https://launchpad.studentorg.berkeley.edu).
-I'll also be working on LLM training and infrastructure at [NVIDIA](https://nvidia.com) this summer.
+Currently, I'm working on offline-to-online RL at [Berkeley Artifical Intelligence Research](https://bair.berkeley.edu), advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), and finetuning VLA foundation models with the [GEAR](https://research.nvidia.com/labs/gear/) team at NVIDIA. Outside my research, I enjoy building applied machine learning applications with my friends at [Launchpad](https://launchpad.studentorg.berkeley.edu).
+I'm also currently interning with the ChipNeMo team at NVIDIA this summer, building LLM infrastructure.
 
 If you'd like to chat, please reach out at [andypeng at berkeley dot edu].
 
