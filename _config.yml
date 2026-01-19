@@ -141,6 +141,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/andypeng05
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: https://scholar.google.com/citations?user=rhqRH0cAAAAJ&hl=en
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url: 

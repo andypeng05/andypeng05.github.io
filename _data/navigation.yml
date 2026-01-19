@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "About"
-    url: '/'
-  - title: "Research"
-    url: '/research/'
+  # - title: "About"
+  #   url: '/'
+  # - title: "Research"
+  #   url: '/research/'
   # - title: "Experience"
   #   url: '/experience/'
   # - title: "Portfolio"
