@@ -98,7 +98,7 @@ If you'd like to chat, please reach out at [andypeng at berkeley dot edu].
         <a href="https://yukezhu.me/">Yuke Zhu</a>,
 
         <br>
-        <em>arXiv preprint</em>, 2025
+        <em>International Conference on Learning Representations (ICLR)</em>, 2026
         <br>
         [<a href="https://www.wenlixiao.com/self-improve-VLA-PLD/assets/doc/pld-fullpaper.pdf">paper</a>]
         [<a href="https://www.wenlixiao.com/self-improve-VLA-PLD">website</a>]
