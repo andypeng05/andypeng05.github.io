@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Notes"
+    url: /notes/
   # - title: "About"
   #   url: '/'
   # - title: "Research"

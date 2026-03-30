@@ -1,0 +1,12 @@
+---
+layout: splash
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+<p><a href="{{ '/notes/' | relative_url }}">&larr; Notes</a></p>
+{% if page.date %}
+<p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+{% endif %}
+
+{{ content }}

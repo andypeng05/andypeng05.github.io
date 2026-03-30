@@ -214,26 +214,36 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # Quieter builds: theme + vendor SCSS still uses legacy @import / color APIs, etc.
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+    - if-function
 
 
 # Outputting
+# No jekyll-paginate: home is index.md (splash), /test and posts are excluded, so pagination had nothing to do.
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -279,6 +289,11 @@ compress_html:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
   # _posts
   - scope:
       path: ""

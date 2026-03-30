@@ -129,3 +129,135 @@ nav#filter a {
 	color: #ffffff;
 	font-size: 12px;
 }
+
+/* KaTeX inherits text color (Minimal Mistakes dark skin) */
+.katex {
+	color: inherit;
+}
+
+/*
+ * Minimal Mistakes _reset.scss sets sub, sup { line-height: 0 }, which collapses the
+ * line box KaTeX relies on for operators like \min and stacked scripts.
+ */
+.page__content .katex sub,
+.page__content .katex sup {
+	line-height: normal !important;
+}
+
+/* dual-projection note interactive figure */
+.dual-proj-viz {
+	margin: 1.25em auto;
+	padding: 0;
+	border: 1px solid rgba(234, 234, 234, 0.15);
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	max-width: 920px;
+}
+.dual-proj-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	gap: 0;
+}
+.dual-proj-main {
+	flex: 1 1 300px;
+	min-width: 0;
+	padding: 0.75rem 0.75rem 1rem 1rem;
+}
+.dual-proj-viz canvas {
+	display: block;
+	width: 100%;
+	max-width: 520px;
+	height: auto;
+	vertical-align: middle;
+}
+.dual-proj-slider {
+	margin-top: 0.65rem;
+	max-width: 520px;
+}
+.dual-proj-label {
+	display: block;
+	margin-bottom: 0.35em;
+	color: inherit;
+	cursor: pointer;
+	font-size: 0.92em;
+}
+.dual-proj-slider input[type="range"] {
+	width: 100%;
+}
+.dual-proj-slider-row {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+.dual-proj-slider-row input[type="range"] {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+#dual-proj-snap {
+	flex: 0 0 auto;
+	padding: 0.35rem 0.6rem;
+	border: 1px solid rgba(234, 234, 234, 0.28);
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(234, 234, 234, 0.92);
+	border-radius: 4px;
+	font-size: 0.8em;
+	line-height: 1.2;
+	cursor: pointer;
+}
+#dual-proj-snap:hover {
+	border-color: rgba(129, 211, 249, 0.7);
+	color: #fff;
+}
+.dual-proj-readout {
+	flex: 0 0 15rem;
+	width: 15rem;
+	min-width: 15rem;
+	max-width: 15rem;
+	margin: 0;
+	padding: 0.85rem 1rem 1rem 1.1rem;
+	color: rgba(234, 234, 234, 0.92);
+	font-size: 0.9em;
+	border-left: 1px solid rgba(234, 234, 234, 0.12);
+	background: rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+	.dual-proj-readout {
+		flex: 1 1 100%;
+		border-left: 0;
+		border-top: 1px solid rgba(234, 234, 234, 0.12);
+		padding-top: 1rem;
+	}
+}
+.dual-proj-stats {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 0.35rem 0.65rem;
+	margin: 0;
+	align-items: baseline;
+}
+.dual-proj-stats dt {
+	margin: 0;
+	font-weight: 600;
+	color: rgba(234, 234, 234, 0.75);
+	font-size: 0.82em;
+	white-space: nowrap;
+}
+.dual-proj-stats dd {
+	margin: 0;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-size: 0.82em;
+	word-break: normal;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+.dual-proj-stats--compact {
+	gap: 0.45rem 0.9rem;
+}
+.dual-proj-stats--compact dt {
+	font-size: 0.86em;
+}
+.dual-proj-stats--compact dd {
+	font-size: 0.86em;
+}
