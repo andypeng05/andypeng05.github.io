@@ -261,3 +261,47 @@ nav#filter a {
 .dual-proj-stats--compact dd {
 	font-size: 0.86em;
 }
+
+/* KL note: two figures side by side */
+.notes-fig-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem 1.35rem;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 1.25rem 0 1.5rem;
+	max-width: 100%;
+}
+.notes-fig-row .notes-fig-pair__cell {
+	flex: 1 1 200px;
+	min-width: 0;
+	max-width: calc(50% - 0.75rem);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+}
+.notes-fig-row .notes-fig-pair__cell img {
+	width: 100%;
+	max-width: 420px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+.notes-fig-row figcaption {
+	margin-top: 0.5rem;
+	font-size: 0.88em;
+	line-height: 1.45;
+	color: rgba(234, 234, 234, 0.72);
+	font-style: italic;
+}
+@media (max-width: 640px) {
+	.notes-fig-row .notes-fig-pair__cell {
+		max-width: 100%;
+		flex: 1 1 100%;
+	}
+	.notes-fig-row .notes-fig-pair__cell img {
+		max-width: 100%;
+	}
+}

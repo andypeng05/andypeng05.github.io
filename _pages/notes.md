@@ -8,7 +8,7 @@ permalink: /notes/
 <div class="notes-index">
   <header class="notes-index__header">
     <h1 class="notes-index__title">Notes</h1>
-    <p class="notes-index__lead">Some things I think are cool! Recently this looks like deep learning, RL, optimization, and robotics. Click to open the full note.</p>
+    <p class="notes-index__lead">Some things I think are cool! Currently mainly for my own reference, so heads up and apologies for poor writing, but hopefully it will get better. Recently this looks like deep learning, RL, optimization, and robotics.</p>
   </header>
 
   {% assign note_list = site.pages | where_exp: "p", "p.path == '__no_match__'" %}
@@ -46,6 +46,6 @@ permalink: /notes/
 <ul class="notes-page__list">
   <li><em>TBD</em></li>
 </ul>
-<p class="notes-page__footnote">Thanks for reading!</p>
+<p class="notes-page__footnote">Thanks for stopping by :)</p>
 
 </div>
