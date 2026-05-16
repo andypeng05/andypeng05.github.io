@@ -66,7 +66,7 @@ permalink: /
 Hi! I'm a 3rd year undergraduate Researcher and Engineer at [UC Berkeley](https://www.berkeley.edu) studying Electrical Engineering and Computer Science (EECS). 
 
 I'm broadly interested in Reinforcement Learning and Robot Learning. 
-Currently, I work on Policy Extraction and offline-to-online RL at [BAIR](https://bair.berkeley.edu), where I'm fortunate to be advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/). I've also had the chance to work on Test-Time methods for RL as an OpenAI research fellow, and RL for VLAs with the [GEAR](https://research.nvidia.com/labs/gear/) team at NVIDIA. Previously, I've also worked on engineering LLM Infra with the ChipNemo team at NVIDIA, and Energy Validation Infra for Robotaxi Charging at Tesla. Outside research, I build machine learning applications with my friends at [Cal Launchpad](https://launchpad.studentorg.berkeley.edu).
+Currently, I work on Policy Extraction for generative offline RL algorithms, and offline-to-online RL for robotics at [BAIR](https://bair.berkeley.edu), where I'm fortunate to be advised by professor [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/). I've also had the chance to work on Test-Time policy improvement methods as an OpenAI research fellow, and online RL for VLA exploration and post-training with the [GEAR](https://research.nvidia.com/labs/gear/) team at NVIDIA. Previously, I've built LLM Infra with the ChipNemo team at NVIDIA, and worked on high-speed simulations on FPGAs for Robotaxi charging at Tesla. Outside research, I spend my time with friends at [Cal Launchpad](https://launchpad.studentorg.berkeley.edu), and playing IM basketball.
 
 If you'd like to chat, please reach out at [andypeng at berkeley dot edu].
 

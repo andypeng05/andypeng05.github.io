@@ -7,17 +7,17 @@ tag: machine learning
 # Different KL Estimators and their correctness for Reinforcement Learning
 
 ### Intro
-Often times in reinforcement learning (and machine learning in general), we would like to estimate the Kullback-Leibler (KL) divergence of our current policy with respect to a reference policy, for many good reasons. For example in offline RL, we want reward-maximizing behavior without overoptimizing outside the data support (OOD issues at test time). And in off-policy online RL, we want sample efficiency by taking multiple gradient steps per batch, but we can't stray too far, otherwise our policy gradient objectives are no longer valid. Or maybe we just want to approximate a distribution. But getting KL right in practice is harder than it looks!
+Often times in Reinforcement Learning (and Machine learning in general), we would like to estimate the Kullback-Leibler (KL) divergence of our current policy with respect to a reference policy, and for many good reasons. For example in offline RL, we want reward-maximizing behavior without overoptimizing outside the data support (otherwise we run into OOD issues at test time). And in off-policy online RL, we want better sample efficiency by taking multiple gradient steps per batch, but we can't stray too far, otherwise our policy gradient objectives are no longer valid. As for why KL specifically and not some other constraint? While we do use other ones like Wasserstein, the KL-regularization solution has a well-known closed form solution, and in general is pretty clean to work with. But getting KL exactly right in practice is harder than it looks!
 
 ---
 
 ### KL Divergence
-The KL divergence gives a quantifiable measure of how different two distributions are, and it is not symmetric. Given a reference policy $$\mu$$ and the policy we are training, $$p_\theta$$:
+The KL divergence gives a quantifiable measure of how different two distributions are. It's non-negative asymmetric. Given a reference policy $$\mu$$ and the policy we are training, $$p_\theta$$:
 
 - **Forward KL**: $$D_{KL}(\mu \| p_\theta) = \mathbb{E}_{x \sim \mu}\left[\log\frac{\mu(x)}{p_\theta(x)}\right]$$. Minimizing this moves mass from $$p_\theta$$ to cover **all** modes of $$\mu$$ — a.k.a. **mode covering**.
 - **Reverse KL**: $$D_{KL}(p_\theta \| \mu) = \mathbb{E}_{x \sim p_\theta}\left[\log\frac{p_\theta(x)}{\mu(x)}\right]$$. Minimizing this restricts $$p_\theta$$ from placing mass anywhere $$\mu$$ doesn't — a.k.a. **mode seeking**.
 
-In RLHF, Offline RL, and most RL regularization settings, **reverse KL** is typically used because we want to stay close to the reference rather than cover every mode.
+In LLM RL, Offline RL, and most behavior regularization settings, **reverse KL** is typically used because we want to stay close to the reference rather than cover every mode.
 
 <div class="notes-fig-row" markdown="0">
   <figure class="notes-fig-pair__cell">
@@ -32,7 +32,7 @@ In RLHF, Offline RL, and most RL regularization settings, **reverse KL** is typi
 
 ---
 
-### When do we use KL in RL?
+### When do we use KL Divergence in RL?
 There are two main places KL estimates appear in RL training:
 
 1. As a **detached reward bonus** — subtracted from the reward signal, not differentiated through (e.g. `reward -= beta * kl.detach()`)
